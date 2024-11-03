@@ -5,16 +5,16 @@ import styles from "./page.module.css";
 
 const Home = () => {
   const categories = {
-    "Basic chat": "basic-chat",
-    "Function calling": "function-calling",
-    "File search": "file-search",
-    All: "all",
+    "纯聊天": "basic-chat",
+    "函数调用": "function-calling",
+    "文档检索": "file-search",
+    "系统整合": "all",
   };
 
   return (
     <main className={styles.main}>
       <div className={styles.title}>
-        Explore sample apps built with Assistants API
+        舒北鼻舒的AI伴侣
       </div>
       <div className={styles.container}>
         {Object.entries(categories).map(([name, url]) => (
